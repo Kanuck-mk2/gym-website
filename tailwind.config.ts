@@ -14,18 +14,31 @@ const config: Config = {
 
     screens: {
       sm: '640px',
-      m: '640px',
-      lg: '640px',
-      xl: '640px',
-      sm: '640px',
+      md: '768px',
+      lg: '1024px',
+      xl: '1400px',
+      
+    },
+
+    fontFamily: {
+      oswald: 'var(--font-oswald)',
+      roboto: 'var(--font-roboto',
+    },
+    backgroundImage: {
+      hero: 'url(gymassests/assets/img/hero/bg.png)',
+      membership: 'url(gymassests/assets/img/membership/bg.jpg)',
     },
 
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+     colors: {
+      primary: {
+        DEFAULT: '#333',
+        100: '#484848',
+        200: '#151515',
+        300: '#111',
       },
+      accent: '#d4000d'
+     }
     },
   },
   plugins: [],
