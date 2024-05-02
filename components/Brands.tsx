@@ -1,9 +1,5 @@
-
-
 const Brands = () => {
-  return (
-    <section className="h-screen bg-sky-300">Brands</section>
-  )
-}
+  return <section className="h-[25vh] bg-sky-300" id="contact">Brands</section>;
+};
 
-export default Brands
+export default Brands;
