@@ -22,7 +22,7 @@ const config: Config = {
 
     fontFamily: {
       oswald: 'var(--font-oswald)',
-      roboto: 'var(--font-roboto',
+      roboto: 'var(--font-roboto)',
     },
     backgroundImage: {
       hero: 'url(gymassests/assets/img/hero/bg.png)',
