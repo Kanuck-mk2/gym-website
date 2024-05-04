@@ -27,19 +27,23 @@ const Header = () => {
         headerActive ? 'h-[100px]' : 'h-[124px]'
       } fixed max-w-[1920px] top-0 left-0 right-0 w-full bg-primary-200 h-[100px] transition-all z-50`}
     >
-      <div className="container mx-auto h-full flex items-center justify-between">
-        <Link href="">
+      <div className="container  mx-auto h-full flex items-center justify-between">
+        <Link href="" className='flex flex-col items-center mb-7'>
           <Image
             src={'/assets/img/logo2.png'}
             width={117}
             height={55}
             alt="logo"
+            
           />
+          <h2 className=' text-cyan-500 text-center font-anta mt-[-40px] '>PEAK</h2>
         </Link>
 
         <MobileNav
-          containerStyles=" flex flex-col  text-center gap-8 fixed bg-primary-200 w-full left-0 
-         top-[124px] text-base uppercase  font-medium  text-white lg:hidden"
+          containerStyles={` ${
+            headerActive ? 'top-[90px]' : 'top-[124px]'
+          } flex flex-col  text-center gap-8 fixed bg-primary-200 w-full left-0 
+         top-[124px] text-base uppercase  font-medium  text-white lg:hidden`}
         />
         <Nav containerStyles=" flex gap-4 text-white lg:flex sm:hidden " />
       </div>

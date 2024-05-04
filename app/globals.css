@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Jersey+25&display=swap');
+
 @layer base {
   body {
     @apply font-roboto;
@@ -34,5 +36,5 @@
 }
 
 .active {
-  @apply text-cyan-400
+  @apply text-cyan-400;
 }
