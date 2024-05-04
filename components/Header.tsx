@@ -1,8 +1,8 @@
 'use client';
 
 import Link from 'next/link';
-import MobileNav from '../components/MobileNav';
-import Nav from '../components/Nav';
+import MobileNav from './MobileNav';
+import Nav from './Nav';
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
 import { MdMenu } from 'react-icons/md';
@@ -36,7 +36,6 @@ const Header = () => {
             width={117}
             height={55}
             alt="logo"
-            
           />
           <h2 className=" text-cyan-500 text-center font-anta mt-[-40px] ">
             PEAK FITNESS
@@ -58,14 +57,24 @@ const Header = () => {
 
         <div className="flex items-center gap-4">
           <div className="text-white flex items-center gap-4 ">
-            <button  type='button' title='/' className="hover:text-accent transition-all  text-base font-anta uppercase font-medium">
+            <button
+              type="button"
+              title="/"
+              className="hover:text-accent transition-all  text-base font-anta uppercase font-medium"
+            >
               Login
             </button>
-            <button type='button' title='/' className="hover:text-accent transition-all  text-base font-anta uppercase font-medium">
+            <button
+              type="button"
+              title="/"
+              className="hover:text-accent transition-all  text-base font-anta uppercase font-medium"
+            >
               Register
             </button>
           </div>
-          <button title='/' type='button'
+          <button
+            title="/"
+            type="button"
             onClick={() => setOpenNav(!openNav)}
             className="text-white lg:hidden "
           >

@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 import { Oswald, Roboto, Anta } from 'next/font/google';
 import './globals.css';
-import Header from '@/sections/Header';
-import Footer from '@/sections/Footer';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 
 const oswald = Oswald({
   subsets: ['latin'],

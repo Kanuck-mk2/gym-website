@@ -1,12 +1,12 @@
-import About from '@/sections/About';
-import Blog from '@/sections/Blog';
-import Brands from '@/sections/Brands';
-import Classes from '@/sections/Classes';
-import Footer from '@/sections/Footer';
-import Hero from '@/sections/Hero';
-import Membership from '@/sections/Membership';
-import Team from '@/sections/Team';
-import Testimonial from '@/sections/Testimonial';
+import About from '@/components/About';
+import Blog from '@/components/Blog';
+import Brands from '@/components/Brands';
+import Classes from '@/components/Classes';
+import Footer from '@/components/Footer';
+import Hero from '@/components/Hero';
+import Membership from '@/components/Membership';
+import Team from '@/components/Team';
+import Testimonial from '@/components/Testimonial';
 
 export default function Home() {
   return (

@@ -16,12 +16,12 @@ const HeroSlider = () => {
             work meets success
           </h1>
           <p className="text-white italic text-center lg:text-left mb-4">
-            Achieve peak results from our facility and community engaged with
+            Achieve peak results from our facility and a community engaged with
             realizing your goals.
           </p>
           <CustomButton
             text="Get started"
-            containerStyles="w-[196px] h-[62px] bg-cyan-300"
+            containerStyles="w-[196px] h-[62px] bg-cyan-300 rounded-full"
           />
         </div>
       </SwiperSlide>
