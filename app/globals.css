@@ -34,5 +34,5 @@
 }
 
 .active {
-  @apply text-accent
+  @apply text-cyan-400
 }

@@ -30,15 +30,18 @@ const Header = () => {
       <div className="container mx-auto h-full flex items-center justify-between">
         <Link href="">
           <Image
-            src={'/assets/img/logo.png'}
+            src={'/assets/img/logo2.png'}
             width={117}
             height={55}
             alt="logo"
           />
         </Link>
 
-        <MobileNav containerStyles="text-white xl:hidden" />
-        <Nav containerStyles=" flex gap-4 text-white  xl:flex hidden " />
+        <MobileNav
+          containerStyles=" flex flex-col  text-center gap-8 fixed bg-primary-200 w-full left-0 
+         top-[124px] text-base uppercase  font-medium  text-white lg:hidden"
+        />
+        <Nav containerStyles=" flex gap-4 text-white lg:flex sm:hidden " />
       </div>
     </header>
   );
