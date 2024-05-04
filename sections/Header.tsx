@@ -36,9 +36,10 @@ const Header = () => {
             width={117}
             height={55}
             alt="logo"
+            
           />
           <h2 className=" text-cyan-500 text-center font-anta mt-[-40px] ">
-            PEAK
+            PEAK FITNESS
           </h2>
         </Link>
 
@@ -57,14 +58,14 @@ const Header = () => {
 
         <div className="flex items-center gap-4">
           <div className="text-white flex items-center gap-4 ">
-            <button className="hover:text-accent transition-all  text-base font-anta uppercase font-medium">
+            <button  type='button' title='/' className="hover:text-accent transition-all  text-base font-anta uppercase font-medium">
               Login
             </button>
-            <button className="hover:text-accent transition-all  text-base font-anta uppercase font-medium">
+            <button type='button' title='/' className="hover:text-accent transition-all  text-base font-anta uppercase font-medium">
               Register
             </button>
           </div>
-          <button
+          <button title='/' type='button'
             onClick={() => setOpenNav(!openNav)}
             className="text-white lg:hidden "
           >

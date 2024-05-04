@@ -5,9 +5,12 @@ const CustomButton = ({
   text: string;
   containerStyles: string;
 }) => {
-  return <button><span>
-    </span>
-    <span>{text}</span></button>;
+  return (
+    <button type="button" className={`${containerStyles}`}>
+      <span></span>
+      <span>{text}</span>
+    </button>
+  );
 };
 
 export default CustomButton;

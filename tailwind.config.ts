@@ -24,7 +24,7 @@ const config: Config = {
       anta: 'var(--font-anta)',
     },
     backgroundImage: {
-      hero: 'url(/assets/img/hero/bg.png)',
+      hero: 'url(/assets/img/hero/gym-bg.jpg)',
       membership: 'url(/assets/img/membership/bg.jpg)',
     },
     extend: {

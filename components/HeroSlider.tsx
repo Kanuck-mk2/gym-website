@@ -11,12 +11,18 @@ const HeroSlider = () => {
     <Swiper>
       <SwiperSlide className="h-full flex justify-end pt-48">
         <div>
-          <h1 className='h1 text-center lg:text-left mb-2'>
-            <span>Where Hard</span>
+          <h1 className="h1 text-center lg:text-left mb-2">
+            <span> Where Hard </span>
             work meets success
           </h1>
-          <p className='text-white italic text-center lg:text-left mb-4'></p>
-          <CustomButton />
+          <p className="text-white italic text-center lg:text-left mb-4">
+            Achieve peak results from our facility and community engaged with
+            realizing your goals.
+          </p>
+          <CustomButton
+            text="Get started"
+            containerStyles="w-[196px] h-[62px] bg-cyan-300"
+          />
         </div>
       </SwiperSlide>
     </Swiper>
