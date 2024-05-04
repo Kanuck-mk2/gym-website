@@ -11,9 +11,9 @@ const HeroSlider = () => {
     <Swiper>
       <SwiperSlide className="h-full flex justify-end pt-48">
         <div>
-          <h1 className="h1 text-center lg:text-left mb-2">
-            <span> Where Hard </span>
-            work meets success
+          <h1 className="h1 text-center lg:text-left mb-2 font-anta">
+             Where <span className='text-cyan-300 font-anta'> Peak </span>
+            effort meets success
           </h1>
           <p className="text-white italic text-center lg:text-left mb-4">
             Achieve peak results from our facility and a community engaged with
