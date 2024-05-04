@@ -25,7 +25,7 @@ const Header = () => {
     <header
       className={`${
         headerActive ? 'h-[100px]' : 'h-[124px]'
-      }fixed max-w-[1920px] top-0 left-0 right-0 w-full bg-primary-200 h-[100px] transition-all z-50`}
+      } fixed max-w-[1920px] top-0 left-0 right-0 w-full bg-primary-200 h-[100px] transition-all z-50`}
     >
       <div className="container mx-auto h-full flex items-center justify-between">
         <Link href="">
@@ -37,7 +37,7 @@ const Header = () => {
           />
         </Link>
 
-        <MobileNav containerStyles=" text-white xl:hidden" />
+        <MobileNav containerStyles="text-white xl:hidden" />
         <Nav containerStyles=" flex gap-4 text-white hidden xl:flex " />
       </div>
     </header>
