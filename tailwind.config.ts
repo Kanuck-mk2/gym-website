@@ -25,8 +25,8 @@ const config: Config = {
       roboto: 'var(--font-roboto)',
     },
     backgroundImage: {
-      hero: 'url(gymassests/assets/img/hero/bg.png)',
-      membership: 'url(gymassests/assets/img/membership/bg.jpg)',
+      hero: 'url(/assets/img/hero/bg.png)',
+      membership: 'url(/assets/img/membership/bg.jpg)',
     },
 
     extend: {

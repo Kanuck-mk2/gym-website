@@ -38,7 +38,7 @@ const Header = () => {
         </Link>
 
         <MobileNav containerStyles="text-white xl:hidden" />
-        <Nav containerStyles=" flex gap-4 text-white hidden xl:flex " />
+        <Nav containerStyles=" flex gap-4 text-white  xl:flex hidden " />
       </div>
     </header>
   );
