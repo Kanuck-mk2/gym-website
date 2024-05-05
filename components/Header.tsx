@@ -31,8 +31,8 @@ const Header = () => {
         headerActive ? 'h-[100px]' : 'h-[124px]'
       }`}
       variants={fadeIn('down', 0.4)}
-      initial="hidden"
-      whileInView="visible"
+      initial="childHidden"
+      whileInView="childVisible"
       viewport={{ once: true}}
     >
       <div className="container mx-auto h-full flex items-center justify-between">

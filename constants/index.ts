@@ -32,7 +32,7 @@ export const featuredItems: {
   },
   {
     icon: IoIosPricetags,
-    title: 'Excellent prices',
+    title: 'Excellent prices and perks',
     subtitle: 'Text',
   },
   {

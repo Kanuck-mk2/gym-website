@@ -1,19 +1,23 @@
-export const fadeIn = (direction: string, delay: number) => {
+import { Variants } from 'framer-motion';
+
+export const fadeIn = (direction: string, delay: number): Variants => {
   return {
-    hidden: {
+    parentHidden: {
+      opacity: 0,
+    },
+    parentVisible: {
+      opacity: 1,
+      transition: {
+        when: 'beforeChildren',
+        staggerChildren: 0.2, // Adjust the stagger delay as needed
+      },
+    },
+    childHidden: {
       y: direction === 'up' ? 40 : direction === 'down' ? -40 : 0,
       opacity: 0,
       x: direction === 'left' ? 40 : direction === 'right' ? -40 : 0,
-
-      transition: {
-        type: 'tween',
-        duration: 1.4,
-        delay: delay,
-        ease: [0.25, 0.6, 0.3, 0.8],
-      },
     },
-
-    visible: {
+    childVisible: {
       y: 0,
       x: 0,
       opacity: 1,

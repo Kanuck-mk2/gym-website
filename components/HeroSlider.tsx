@@ -19,8 +19,8 @@ const HeroSlider = () => {
             <motion.h1
               className="lg:text-8xl text-gray-200 text-center lg:text-left mb-2 font-anta sm:text-7xl"
               variants={fadeIn('up', 0.4)}
-              initial="hidden"
-              whileInView="visible"
+              initial="childHidden"
+              whileInView="childVisible"
               viewport={{ once: false, amount: 0.2 }}
             >
               Where <span className="text-accent font-anta">Peak</span> effort
@@ -29,8 +29,8 @@ const HeroSlider = () => {
             <motion.p
               className="text-gray-200 font-semibold italic text-center lg:text-left mb-4"
               variants={fadeIn('up', 0.6)}
-              initial="hidden"
-              whileInView="visible"
+              initial="childHidden"
+              whileInView="childVisible"
               viewport={{ once: false, amount: 0.2 }}
             >
               Achieve results from our facility and a community ready to be
@@ -38,8 +38,8 @@ const HeroSlider = () => {
             </motion.p>
             <motion.div
               variants={fadeIn('up', 0.8)}
-              initial="hidden"
-              whileInView="visible"
+              initial="childHidden"
+              whileInView="childVisible"
               viewport={{ once: false, amount: 0.2 }}
             >
               <CustomButton
@@ -57,8 +57,8 @@ const HeroSlider = () => {
             <motion.h1
               className="lg:text-7xl text-gray-200 text-center lg:text-left mb-2 font-anta sm:text-5xl"
               variants={fadeIn('up', 0.4)}
-              initial="hidden"
-              whileInView="visible"
+              initial="childHidden"
+              whileInView="childVisible"
               viewport={{ once: false, amount: 0.2 }}
             >
               Our <span className="text-accent">Team</span> of expert{' '}
@@ -69,8 +69,8 @@ const HeroSlider = () => {
             <motion.p
               className="text-gray-200 italic font-semibold text-center lg:text-left mb-4"
               variants={fadeIn('up', 0.6)}
-              initial="hidden"
-              whileInView="visible"
+              initial="childHidden"
+              whileInView="childVisible"
               viewport={{ once: false, amount: 0.2 }}
             >
               Our trainers are highly qualified and experienced with a wide
@@ -79,8 +79,8 @@ const HeroSlider = () => {
             </motion.p>
             <motion.div
               variants={fadeIn('up', 0.8)}
-              initial="hidden"
-              whileInView="visible"
+              initial="childHidden"
+              whileInView="childVisible"
               viewport={{ once: false, amount: 0.2 }}
             >
               <CustomButton
