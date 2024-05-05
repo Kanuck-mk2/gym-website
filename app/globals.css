@@ -18,7 +18,7 @@
     @apply font-oswald font-bold uppercase;
   }
   .h1 {
-    @apply text-gray-200 text-6xl lg:text-[128px] tracking-[-3px];
+    @apply text-gray-200 tracking-[-3px];
   }
 
   .h2 {
@@ -38,4 +38,3 @@
 .active {
   @apply text-cyan-400;
 }
-
