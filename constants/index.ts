@@ -1,5 +1,7 @@
 import { FaUsers } from 'react-icons/fa';
-import type { IconType } from 'react-icons'; 
+import { IoIosPricetags } from 'react-icons/io';
+import { FaDumbbell } from 'react-icons/fa';
+import type { IconType } from 'react-icons';
 
 export interface NavbarLink {
   name: string;
@@ -18,20 +20,24 @@ export const navbarLinks: NavbarLink[] = [
   { name: 'contact', target: 'contact', offset: 0 },
 ];
 
-export const featuredItems: { icon: IconType; title: string; subtitle: string }[] = [
+export const featuredItems: {
+  icon: IconType;
+  title: string;
+  subtitle: string;
+}[] = [
   {
     icon: FaUsers,
     title: 'Award-winning trainers',
     subtitle: 'Text',
   },
   {
-    icon: FaUsers,
-    title: 'Award-winning trainers',
+    icon: IoIosPricetags,
+    title: 'Excellent prices',
     subtitle: 'Text',
   },
   {
-    icon: FaUsers,
-    title: 'Award-winning trainers',
+    icon: FaDumbbell,
+    title: 'Modern equipment and amentities',
     subtitle: 'Text',
   },
 ];
