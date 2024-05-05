@@ -1,43 +1,28 @@
-import { Variants, TargetAndTransition } from 'framer-motion';
+export const fadeIn = (direction: string, delay: number) => {
+  return {
+    hidden: {
+      y: direction === 'up' ? 40 : direction === 'down' ? -40 : 0,
+      opacity: 0,
+      x: direction === 'left' ? 40 : direction === 'right' ? -40 : 0,
 
-interface AnimationVariant extends Variants {
-  hidden: TargetAndTransition;
-  visible: TargetAndTransition;
-}
-
-export const fadeInUpVariant: AnimationVariant = {
-  hidden: {
-    opacity: 0,
-    y: 50,
-  },
-  visible: {
-    opacity: 1,
-    y: 0,
-    transition: {
-      duration: 0.5,
-      ease: 'easeOut',
+      transition: {
+        type: 'tween',
+        duration: 1.4,
+        delay: delay,
+        ease: [0.25, 0.6, 0.3, 0.8],
+      },
     },
-  },
-};
 
-export const scaleVariant: AnimationVariant = {
-  hidden: {
-    scale: 0,
-  },
-  visible: {
-    scale: 1,
-    transition: {
-      duration: 0.3,
-      ease: 'easeInOut',
+    visible: {
+      y: 0,
+      x: 0,
+      opacity: 1,
+      transition: {
+        type: 'tween',
+        duration: 1.4,
+        delay: delay,
+        ease: [0.25, 0.25, 0.25, 0.75],
+      },
     },
-  },
-};
-
-export const staggerChildrenVariant: AnimationVariant = {
-  hidden: {},
-  visible: {
-    transition: {
-      staggerChildren: 0.1,
-    },
-  },
+  };
 };

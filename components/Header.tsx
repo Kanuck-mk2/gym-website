@@ -37,7 +37,7 @@ const Header = () => {
             height={55}
             alt="logo"
           />
-          <h2 className=" text-cyan-500 text-center font-anta mt-[-40px] ">
+          <h2 className=" text-accent text-center font-anta mt-[-40px] ">
             PEAK FITNESS
           </h2>
         </Link>

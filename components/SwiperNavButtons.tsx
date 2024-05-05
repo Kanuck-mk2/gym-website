@@ -12,12 +12,14 @@ const SwiperNavButtons = ({
   btnStyles: string;
   iconStyles: string;
 }) => {
+
+    const swiper = useSwiper()
   return (
     <div className={`${containerStyles}`}>
-      <button className={`${btnStyles}`} type="button" title="/">
+      <button className={`${btnStyles}`} onClick={() => swiper.slidePrev()} type="button" title="/" >
         <PiCaretLeftBold className={`${iconStyles}`} />
       </button>
-      <button className={`${btnStyles}`} type="button" title="/">
+      <button className={`${btnStyles}`} onClick={() => swiper.slideNext()} type="button" title="/">
         <PiCaretRightBold className={`${iconStyles}`} />
       </button>
     </div>
