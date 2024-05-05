@@ -36,7 +36,9 @@ const config: Config = {
           300: 'hsl(0, 0%, 6%)',
         },
         accent: 'hsl(195, 82%, 53%)',
+        about: 'hsl(205, 86%, 19%)',
       },
+     
     },
   },
   plugins: [],
