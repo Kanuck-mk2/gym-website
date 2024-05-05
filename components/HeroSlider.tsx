@@ -94,7 +94,7 @@ const HeroSlider = () => {
       <SwiperNavButtons
         containerStyles="absolute bottom-2 lg:right-0 lg:mb-[200px] lg:mr-[430px] h-[120px] w-full lg:w-[130px] z-50 
         flex justify-center sm:justify-center sm:py-9 sm:mr-50  gap-2"
-        btnStyles="border border-accent rounded-full text-white w-[56px] h-[56px] flex justify-center
+        btnStyles="border-2 border-accent rounded-full text-white w-[56px] h-[56px] flex justify-center
                  items-center hover:bg-accent transition-all duration-300"
         iconStyles="text-2xl"
       />

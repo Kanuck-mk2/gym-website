@@ -1,3 +1,6 @@
+import { FaUsers } from 'react-icons/fa';
+import type { IconType } from 'react-icons'; 
+
 export interface NavbarLink {
   name: string;
   target: string;
@@ -13,4 +16,22 @@ export const navbarLinks: NavbarLink[] = [
   { name: 'testimonial', target: 'testimonial', offset: 0 },
   { name: 'blog', target: 'blog', offset: 0 },
   { name: 'contact', target: 'contact', offset: 0 },
+];
+
+export const featuredItems: { icon: IconType; title: string; subtitle: string }[] = [
+  {
+    icon: FaUsers,
+    title: 'Award-winning trainers',
+    subtitle: 'Text',
+  },
+  {
+    icon: FaUsers,
+    title: 'Award-winning trainers',
+    subtitle: 'Text',
+  },
+  {
+    icon: FaUsers,
+    title: 'Award-winning trainers',
+    subtitle: 'Text',
+  },
 ];
