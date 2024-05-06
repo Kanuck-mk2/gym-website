@@ -9,7 +9,7 @@ export const fadeIn = (direction: string, delay: number): Variants => {
       opacity: 1,
       transition: {
         when: 'beforeChildren',
-        staggerChildren: 0.2, 
+        staggerChildren: 0.2,
       },
     },
     childHidden: {
@@ -23,6 +23,36 @@ export const fadeIn = (direction: string, delay: number): Variants => {
       opacity: 1,
       transition: {
         type: 'tween',
+        duration: 1.4,
+        delay: delay,
+        ease: [0.25, 0.25, 0.25, 0.75],
+      },
+    },
+  };
+};
+
+export const Pop = (delay: number): Variants => {
+  return {
+    parentHidden: {
+      opacity: 0,
+    },
+    parentVisible: {
+      opacity: 1,
+      transition: {
+        when: 'beforeChildren',
+        staggerChildren: 0.2,
+      },
+    },
+    childHidden: {
+      scale: 0.0,
+      opacity: 0,
+    },
+    childVisible: {
+      scale: 1.0,
+
+      opacity: 1,
+      transition: {
+        type: 'spring',
         duration: 1.4,
         delay: delay,
         ease: [0.25, 0.25, 0.25, 0.75],

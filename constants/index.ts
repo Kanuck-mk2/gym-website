@@ -30,20 +30,22 @@ export const featuredItems: {
   {
     icon: FaUsers,
     title: 'Award-winning trainers',
-    subtitle: 'Our experienced and highly knowledgable trainers have trained a clients with various fitness levels',
+    subtitle:
+      'Our experienced and highly knowledgable trainers have trained a clients with various fitness levels',
   },
   {
     icon: IoIosPricetags,
     title: 'Excellent prices and perks',
-    subtitle: 'Our membership plans are afforable and provide plently of benefits',
+    subtitle:
+      'Our membership plans are afforable and provide plently of benefits',
   },
   {
     icon: FaDumbbell,
     title: 'Modern equipment and amentities',
-    subtitle: 'Our well maintained equipment and amenties are kept in top condition',
+    subtitle:
+      'Our well maintained equipment and amenties are kept in top condition',
   },
 ];
-
 
 export const stats: {
   number: number;
@@ -69,5 +71,33 @@ export const stats: {
     number: 9,
     icon: FaTrophy,
     text: 'international awards',
+  },
+];
+
+export const classes: {
+  name: string;
+  img: string;
+  description: string;
+}[] = [
+  {
+    name: 'bodybuilding',
+    img: '/assets/img/classes/bodybuilding.jpg',
+    description: 'text',
+  },
+
+  {
+    name: 'cardio',
+    img: '/assets/img/classes/cardio.jpg',
+    description: 'text',
+  },
+  {
+    name: 'fitness',
+    img: '/assets/img/classes/fitness.jpg',
+    description: 'text',
+  },
+  {
+    name: 'crossfit',
+    img: '/assets/img/classes/crossfit.jpg',
+    description: 'text',
   },
 ];
