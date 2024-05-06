@@ -1,6 +1,8 @@
 import { FaUsers } from 'react-icons/fa';
 import { IoIosPricetags } from 'react-icons/io';
 import { FaDumbbell } from 'react-icons/fa';
+import { FaBriefcase, FaClock, FaTrophy } from 'react-icons/fa';
+import { ImUsers } from 'react-icons/im';
 import type { IconType } from 'react-icons';
 
 export interface NavbarLink {
@@ -28,16 +30,44 @@ export const featuredItems: {
   {
     icon: FaUsers,
     title: 'Award-winning trainers',
-    subtitle: 'Text',
+    subtitle: 'Our experienced and highly knowledgable trainers have trained a clients with various fitness levels',
   },
   {
     icon: IoIosPricetags,
     title: 'Excellent prices and perks',
-    subtitle: 'Text',
+    subtitle: 'Our membership plans are afforable and provide plently of benefits',
   },
   {
     icon: FaDumbbell,
     title: 'Modern equipment and amentities',
-    subtitle: 'Text',
+    subtitle: 'Our well maintained equipment and amenties are kept in top condition',
+  },
+];
+
+
+export const stats: {
+  number: number;
+  icon: IconType;
+  text: string;
+}[] = [
+  {
+    number: 19,
+    icon: FaBriefcase,
+    text: 'training courses',
+  },
+  {
+    number: 879,
+    icon: FaClock,
+    text: 'working hours',
+  },
+  {
+    number: 250,
+    icon: ImUsers,
+    text: 'satisfied clients',
+  },
+  {
+    number: 9,
+    icon: FaTrophy,
+    text: 'international awards',
   },
 ];

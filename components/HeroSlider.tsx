@@ -23,7 +23,7 @@ const HeroSlider = () => {
               whileInView="childVisible"
               viewport={{ once: false, amount: 0.2 }}
             >
-              Where <span className="text-accent font-anta">Peak</span> effort
+              Where <span className="text-accent font-anta">Peak</span> performance
               meets success
             </motion.h1>
             <motion.p
@@ -91,8 +91,35 @@ const HeroSlider = () => {
           </div>
         </div>
       </SwiperSlide>
+      <SwiperSlide>
+        <div className="h-full flex justify-start pt-48">
+          <div className="flex flex-col items-center lg:items-start lg:max-w-[700px] -mt-9">
+            <motion.h1
+              className="lg:text-7xl text-gray-200 text-center lg:text-left mb-2 font-anta sm:text-5xl"
+              variants={fadeIn('up', 0.4)}
+              initial="childHidden"
+              whileInView="childVisible"
+              viewport={{ once: false, amount: 0.2 }}
+            >
+              Step into our{' '}
+              <span className="text-accent">state-of-the-art gym</span>, where
+              sleek modern equipment and premium amenities await
+            </motion.h1>
+            <motion.p
+              className="text-gray-200 italic font-semibold text-center lg:text-left mb-4"
+              variants={fadeIn('up', 0.6)}
+              initial="childHidden"
+              whileInView="childVisible"
+              viewport={{ once: false, amount: 0.2 }}
+            >
+              To provide an comfortable yet effcient space for your workout
+              needs.
+            </motion.p>
+          </div>
+        </div>
+      </SwiperSlide>
       <SwiperNavButtons
-        containerStyles="absolute bottom-2 lg:right-0 lg:mb-[200px] lg:mr-[430px] h-[120px] w-full lg:w-[130px] z-50 flex justify-center sm:justify-center sm:py-9 sm:mr-50 gap-2"
+        containerStyles="absolute bottom-2 lg:right-0 lg:mb-[40px] lg:mr-[430px] h-[120px] w-full lg:w-[130px] z-50 flex justify-center sm:justify-center sm:py-9 sm:mr-50 gap-2"
         btnStyles="border-2 border-accent rounded-full text-white w-[56px] h-[56px] flex justify-center items-center hover:bg-accent transition-all duration-300"
         iconStyles="text-2xl"
       />

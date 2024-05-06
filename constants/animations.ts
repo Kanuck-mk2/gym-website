@@ -9,7 +9,7 @@ export const fadeIn = (direction: string, delay: number): Variants => {
       opacity: 1,
       transition: {
         when: 'beforeChildren',
-        staggerChildren: 0.2, // Adjust the stagger delay as needed
+        staggerChildren: 0.2, 
       },
     },
     childHidden: {
