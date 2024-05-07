@@ -90,23 +90,22 @@ export const classes: {
   {
     name: 'bodybuilding',
     img: '/assets/img/classes/bodybuilder.jpg',
-    description: 'text',
+    description: 'Strength training and muscle development.',
   },
-
   {
     name: 'cardio',
     img: '/assets/img/classes/cardio2.jpg',
-    description: 'text',
+    description: 'Heart-pumping workouts for cardiovascular health.',
   },
   {
     name: 'inclusive fitness',
     img: '/assets/img/classes/infit.jpg',
-    description: 'text',
+    description: 'Fitness for all levels and abilities.',
   },
   {
     name: 'crossfit',
     img: '/assets/img/classes/crossfit2.jpg',
-    description: 'text',
+    description: 'High-intensity functional training.',
   },
 ];
 

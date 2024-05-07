@@ -11,7 +11,7 @@ const Classes = () => {
   return (
     <section id="class" className="bg-black">
       <motion.div
-        className="grid grid-cols-1 lg:grid-cols-2 "
+        className="grid grid-cols-1 lg:grid-cols-2"
         variants={fadeIn('up', 0.6)}
         initial="childHidden"
         whileInView={'childVisible'}
@@ -36,7 +36,7 @@ const Classes = () => {
                     {item.name}
                   </motion.h3>
                   <motion.p
-                    className="text-white"
+                    className="text-gray-200 font bold text-2xl"
                     variants={fadeIn('up', 0.6)}
                     initial="childHidden"
                     whileInView={'childVisible'}
