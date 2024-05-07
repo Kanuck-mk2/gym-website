@@ -11,10 +11,10 @@ import { trainerData } from '@/constants';
 
 const Team = () => {
   return (
-    <section className="bg-black p-16 lg:h-[120vh]" id="team">
+    <section className="bg-black  lg:h-[130vh]" id="team">
       <div className="container mx-auto h-full flex flex-col items-center justify-evenly">
         <motion.h2
-          className="text-4xl mb-6"
+          className="text-4xl p-6"
           variants={fadeIn('up', 0.4)}
           initial="childHidden"
           whileInView={'childVisible'}

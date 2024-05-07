@@ -1,9 +1,16 @@
-import { FaFacebook, FaTwitter, FaUsers, FaYoutube } from 'react-icons/fa';
+import {
+  FaCheck,
+  FaFacebook,
+  FaTwitter,
+  FaUsers,
+  FaYoutube,
+} from 'react-icons/fa';
 import { IoIosPricetags } from 'react-icons/io';
 import { FaDumbbell } from 'react-icons/fa';
 import { FaBriefcase, FaClock, FaTrophy } from 'react-icons/fa';
 import { ImUsers } from 'react-icons/im';
 import type { IconType } from 'react-icons';
+import { MdClose } from 'react-icons/md';
 
 export interface NavbarLink {
   name: string;
@@ -159,6 +166,134 @@ export const trainerData: Trainer[] = [
       { icon: FaFacebook, href: 'http://facebook.com' },
       { icon: FaTwitter, href: 'http://twitter.com' },
       { icon: FaYoutube, href: 'http://youtube.com' },
+    ],
+  },
+];
+
+interface benefits {
+  icon: IconType;
+  text: string;
+}
+
+export interface membershipData {
+  title: string;
+  price: number;
+  benefits: benefits[];
+}
+
+export const membershipData = [
+  {
+    title: 'Standard',
+    price: 24.99,
+    benefits: [
+      {
+        icon: FaCheck,
+        text: 'Includes membership',
+      },
+      {
+        icon: FaCheck,
+        text: 'text',
+      },
+      {
+        icon: MdClose,
+        text: 'Diet plan included',
+      },
+      {
+        icon: FaCheck,
+        text: 'text',
+      },
+      {
+        icon: MdClose,
+        text: '24 hour access (6am-10pm for standard members)',
+      },
+      {
+        icon: FaCheck,
+        text: 'Full Access',
+      },
+      {
+        icon: MdClose,
+        text: 'No additional amenities',
+      },
+      {
+        icon: MdClose,
+        text: 'Coaching Sessions ( 5 free coaching session for new members)',
+      },
+    ],
+  },
+  {
+    title: 'Ultimate',
+    price: 54.99,
+    benefits: [
+      {
+        icon: FaCheck,
+        text: 'Includes membership',
+      },
+      {
+        icon: FaCheck,
+        text: 'Access to all gym facilities',
+      },
+      {
+        icon: FaCheck,
+        text: 'Diet plan included',
+      },
+      {
+        icon: FaCheck,
+        text: 'text',
+      },
+      {
+        icon: FaCheck,
+        text: '24 hour access',
+      },
+      {
+        icon: FaCheck,
+        text: 'Full Access',
+      },
+      {
+        icon: MdClose,
+        text: 'No additional amenities',
+      },
+      {
+        icon: FaCheck,
+        text: 'Coaching Sessions (5 sessions per month for Ultimate Members)',
+      },
+    ],
+  },
+  {
+    title: 'Professional',
+    price: 99.99,
+    benefits: [
+      {
+        icon: FaCheck,
+        text: 'Includes membership',
+      },
+      {
+        icon: FaCheck,
+        text: 'Access to all gym facilities',
+      },
+      {
+        icon: FaCheck,
+        text: 'Diet plan included',
+      },
+      {
+        icon: FaCheck,
+        text: 'text',
+      },
+      {
+        icon: FaCheck,
+        text: '24 hour access',
+      },
+      {
+        icon: FaCheck,
+        text: 'Full Access',
+      },
+      {
+        icon: FaCheck,
+        text: 'No additional amenities',
+      },
+      {
+        icon: FaCheck,
+        text: 'Coaching Sessions (12 sessions per month for Pro Members)',
+      },
     ],
   },
 ];

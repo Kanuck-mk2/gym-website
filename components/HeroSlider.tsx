@@ -23,8 +23,8 @@ const HeroSlider = () => {
               whileInView="childVisible"
               viewport={{ once: false, amount: 0.2 }}
             >
-              Where <span className="text-accent font-anta">Peak</span> performance
-              meets success
+              Where <span className="text-accent font-anta">Peak</span>{' '}
+              performance meets success
             </motion.h1>
             <motion.p
               className="text-gray-200 font-semibold italic text-center lg:text-left mb-4"

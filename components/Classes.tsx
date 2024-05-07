@@ -35,21 +35,26 @@ const Classes = () => {
                   >
                     {item.name}
                   </motion.h3>
-                  <motion.p className="text-white"
-                   variants={fadeIn('up', 0.6)}
-                   initial="childHidden"
-                   whileInView={'childVisible'}
-                   viewport={{ once: false, amount: 0.2 }}>{item.description}</motion.p>
+                  <motion.p
+                    className="text-white"
+                    variants={fadeIn('up', 0.6)}
+                    initial="childHidden"
+                    whileInView={'childVisible'}
+                    viewport={{ once: false, amount: 0.2 }}
+                  >
+                    {item.description}
+                  </motion.p>
 
-                   <motion.div
+                  <motion.div
                     variants={fadeIn('up', 0.8)}
                     initial="childHidden"
                     whileInView={'childVisible'}
-                    viewport={{ once: false, amount: 0.2 }}>
-                  <CustomButton
-                    containerStyles="w-[164px] h-[46px] rounded-full"
-                    text="Read More"
-                  />
+                    viewport={{ once: false, amount: 0.2 }}
+                  >
+                    <CustomButton
+                      containerStyles="w-[164px] h-[46px] rounded-full"
+                      text="Read More"
+                    />
                   </motion.div>
                 </div>
               </div>
