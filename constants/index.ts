@@ -1,4 +1,4 @@
-import { FaUsers } from 'react-icons/fa';
+import { FaFacebook, FaTwitter, FaUsers, FaYoutube } from 'react-icons/fa';
 import { IoIosPricetags } from 'react-icons/io';
 import { FaDumbbell } from 'react-icons/fa';
 import { FaBriefcase, FaClock, FaTrophy } from 'react-icons/fa';
@@ -99,5 +99,66 @@ export const classes: {
     name: 'crossfit',
     img: '/assets/img/classes/crossfit.jpg',
     description: 'text',
+  },
+];
+
+interface TrainerSocial {
+  icon: IconType;
+  href: string;
+}
+
+export interface Trainer {
+  name: string;
+  image: string;
+  role: string;
+  description: string;
+  social: TrainerSocial[];
+}
+
+export const trainerData: Trainer[] = [
+  {
+    name: 'David',
+    image: '/assets/img/trainers/david.jpg',
+    role: 'Bodybuilder coach',
+    description: 'text',
+    social: [
+      { icon: FaFacebook, href: 'http://facebook.com' },
+      { icon: FaTwitter, href: 'http://twitter.com' },
+      { icon: FaYoutube, href: 'http://youtube.com' },
+    ],
+  },
+  {
+    name: 'Matt',
+    image: '/assets/img/trainers/matt.jpg',
+    role: 'Bodybuilder coach',
+    description: 'text',
+    social: [
+      { icon: FaFacebook, href: 'http://facebook.com' },
+      { icon: FaTwitter, href: 'http://twitter.com' },
+      { icon: FaYoutube, href: 'http://youtube.com' },
+    ],
+  },
+  {
+    name: 'Rosy',
+    image: '/assets/img/trainers/rosy.jpg',
+    role: 'Bodybuilder coach',
+    description: 'text',
+    social: [
+      { icon: FaFacebook, href: 'http://facebook.com' },
+      { icon: FaTwitter, href: 'http://twitter.com' },
+      { icon: FaYoutube, href: 'http://youtube.com' },
+    ],
+  },
+
+  {
+    name: 'Sofia',
+    image: '/assets/img/trainers/sofia.jpg',
+    role: 'Bodybuilder coach',
+    description: 'text',
+    social: [
+      { icon: FaFacebook, href: 'http://facebook.com' },
+      { icon: FaTwitter, href: 'http://twitter.com' },
+      { icon: FaYoutube, href: 'http://youtube.com' },
+    ],
   },
 ];
