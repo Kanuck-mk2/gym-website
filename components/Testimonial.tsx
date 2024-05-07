@@ -58,8 +58,8 @@ const Testimonial = () => {
                     <Image
                       className="rounded-full border-2 border-accent"
                       src={person.img}
-                      width={90}
-                      height={90}
+                      width={130}
+                      height={130}
                       alt="/"
                     />
                     <div className="flex flex-col justify-center items-center">
