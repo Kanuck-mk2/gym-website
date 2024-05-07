@@ -30,7 +30,7 @@ const About = () => {
               <motion.div
                 className="flex flex-col justify-center items-center gap-4 p-10"
                 key={index}
-                variants={fadeIn('up', index * 0.1)}
+                variants={fadeIn('up', index * 0.2)}
                 initial="childHidden"
                 whileInView={'childVisible'}
                 viewport={{ once: true }}
