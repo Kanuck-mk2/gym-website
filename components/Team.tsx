@@ -11,24 +11,24 @@ import { trainerData } from '@/constants';
 
 const Team = () => {
   return (
-    <section className="bg-black  lg:h-[130vh]" id="team">
+    <section className="bg-black  lg:h-[190vh]" id="team">
       <div className="container mx-auto h-full flex flex-col items-center justify-evenly">
         <motion.h2
           className="text-4xl p-6 font-anta"
           variants={fadeIn('up', 0.4)}
           initial="childHidden"
           whileInView={'childVisible'}
-          viewport={{ once: false, amount: 0.2 }}
+          viewport={{ once: true, amount: 0.2 }}
         >
           {' '}
           Our Trainers
         </motion.h2>
         <motion.div
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mr-9"
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12"
           variants={fadeIn('up', 0.6)}
           initial="childHidden"
           whileInView={'childVisible'}
-          viewport={{ once: false, amount: 0.2 }}
+          viewport={{ once: true, amount: 0.2 }}
         >
           {trainerData.map((trainer, index) => {
             return (
@@ -66,7 +66,7 @@ const Team = () => {
           variants={fadeIn('up', 0.8)}
           initial="childHidden"
           whileInView={'childVisible'}
-          viewport={{ once: false, amount: 0.2 }}
+          viewport={{ once: true, amount: 0.2 }}
         >
           <CustomButton
             containerStyles="w-[196px] h-[62px] rounded-full font-anta"

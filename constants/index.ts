@@ -125,9 +125,9 @@ export interface Trainer {
 export const trainerData: Trainer[] = [
   {
     name: 'David',
-    image: '/assets/img/trainers/david.jpg',
+    image: '/assets/img/trainers/david2.jpg',
     role: 'Bodybuilder coach',
-    description: 'text',
+    description: 'David is a professional bodybuilder coach with extensive experience and a passion for sculpting physiques. With personalized training programs and expert guidance, David helps clients achieve their fitness goals effectively.',
     social: [
       { icon: FaFacebook, href: 'http://facebook.com' },
       { icon: FaTwitter, href: 'http://twitter.com' },
@@ -137,8 +137,8 @@ export const trainerData: Trainer[] = [
   {
     name: 'Jay',
     image: '/assets/img/trainers/Jay.jpg',
-    role: 'Bodybuilder coach',
-    description: 'text',
+    role: 'Professional Trainer',
+    description: 'Jay is a professional trainer known for his dynamic approach and personalized training methods. With Jays guidance, clients achieve remarkable results and surpass their fitness goals.',
     social: [
       { icon: FaFacebook, href: 'http://facebook.com' },
       { icon: FaTwitter, href: 'http://twitter.com' },
@@ -146,22 +146,10 @@ export const trainerData: Trainer[] = [
     ],
   },
   {
-    name: 'Rosy',
-    image: '/assets/img/trainers/rosy.jpg',
-    role: 'Bodybuilder coach',
-    description: 'text',
-    social: [
-      { icon: FaFacebook, href: 'http://facebook.com' },
-      { icon: FaTwitter, href: 'http://twitter.com' },
-      { icon: FaYoutube, href: 'http://youtube.com' },
-    ],
-  },
-
-  {
-    name: 'Sofia',
-    image: '/assets/img/trainers/sofia.jpg',
-    role: 'Bodybuilder coach',
-    description: 'text',
+    name: 'Anya',
+    image: '/assets/img/trainers/anya.jpg',
+    role: 'Fitness Expert',
+    description: 'Anya is a renowned fitness expert with a holistic approach to fitness. Her training programs focus on physical strength, mental well-being, and nutritional balance, helping clients achieve optimal health and wellness.',
     social: [
       { icon: FaFacebook, href: 'http://facebook.com' },
       { icon: FaTwitter, href: 'http://twitter.com' },
@@ -169,6 +157,7 @@ export const trainerData: Trainer[] = [
     ],
   },
 ];
+
 
 interface benefits {
   icon: IconType;
@@ -304,37 +293,37 @@ interface testimonialData {
 }
 export const testimonialData = [
   {
-    img: '/assets/img/testimonial/lucy.jpg',
-    message: 'text',
-    name: 'Lucy Anthony',
+    img: '/assets/img/testimonial/Alex.jpg',
+    message: 'Peak Gym helped me smash my fitness goals!',
+    name: 'Alex Nguyen',
   },
   {
-    img: '/assets/img/testimonial/lucy.jpg',
-    message: 'text',
-    name: 'Lucy Anthony',
+    img: '/assets/img/testimonial/Alia.jpg',
+    message: 'I love Peak Gym! The trainers are fantastic!',
+    name: 'Alia Lopez',
   },
   {
-    img: '/assets/img/testimonial/lucy.jpg',
-    message: 'text',
-    name: 'Lucy Anthony',
-  },
-
-  {
-    img: '/assets/img/testimonial/lucy.jpg',
-    message: 'text',
-    name: 'Lucy Anthony',
+    img: '/assets/img/testimonial/Colin.jpg',
+    message: 'Peak Gym is amazing! The facilities are top-notch.',
+    name: 'Kevin Lee',
   },
   {
-    img: '/assets/img/testimonial/lucy.jpg',
-    message: 'text',
-    name: 'Lucy Anthony',
+    img: '/assets/img/testimonial/Serena.jpg',
+    message: 'Peak Gym is my go-to place for fitness. Highly recommend!',
+    name: 'Serena Adewale',
   },
   {
-    img: '/assets/img/testimonial/lucy.jpg',
-    message: 'text',
-    name: 'Lucy Anthony',
+    img: '/assets/img/testimonial/Ryan.jpg',
+    message: 'Peak Gym has transformed my fitness journey. Love it!',
+    name: 'Liam Williams',
+  },
+  {
+    img: '/assets/img/testimonial/Zak.jpg',
+    message: 'Peak Gym rocks! The trainers are awesome!',
+    name: 'Zak Rhode',
   },
 ];
+
 
 interface blogData {
   img: string;
@@ -345,45 +334,45 @@ interface blogData {
 
 export const blogData = [
   {
-    img: '/assets/img/blog/post2.jpg',
+    img: '/assets/img/blog/post1.jpg',
     date: 'March 10, 2024',
-    title: 'text',
+    title: 'Overtraining facts and myths',
+    href: '/',
+  },
+  {
+    img: '/assets/img/blog/post5.jpg',
+    date: 'Feburary 23, 2024',
+    title: 'A revoltuion takes a spin',
     href: '/',
   },
   {
     img: '/assets/img/blog/post2.jpg',
-    date: 'March 10, 2024',
-    title: 'text',
+    date: 'February 12, 2024',
+    title: 'Programming your goals',
     href: '/',
   },
   {
-    img: '/assets/img/blog/post2.jpg',
-    date: 'March 10, 2024',
-    title: 'text',
+    img: '/assets/img/blog/post3.jpg',
+    date: 'January 30, 2024',
+    title: 'The idea of fitness as we age',
     href: '/',
   },
   {
-    img: '/assets/img/blog/post2.jpg',
-    date: 'March 10, 2024',
-    title: 'text',
+    img: '/assets/img/blog/post4.jpg',
+    date: 'January 18, 2024',
+    title: 'Exploring protein',
     href: '/',
   },
   {
-    img: '/assets/img/blog/post2.jpg',
-    date: 'March 10, 2024',
-    title: 'text',
+    img: '/assets/img/blog/post6.jpg',
+    date: 'December 20, 2023',
+    title: 'Nutrition for girls who lift',
     href: '/',
   },
   {
-    img: '/assets/img/blog/post2.jpg',
+    img: '/assets/img/blog/post7.jpg',
     date: 'March 10, 2024',
-    title: 'text',
-    href: '/',
-  },
-  {
-    img: '/assets/img/blog/post2.jpg',
-    date: 'March 10, 2024',
-    title: 'text',
+    title: 'Adaptive Training and overcoming limits',
     href: '/',
   },
   {

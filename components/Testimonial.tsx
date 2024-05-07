@@ -33,8 +33,7 @@ const Testimonial = () => {
           whileInView={'childVisible'}
           viewport={{ once: true, amount: 0.2 }}
         >
-          <Swiper 
-          
+          <Swiper
             slidesPerView={1}
             spaceBetween={30}
             modules={[Pagination]}
@@ -65,8 +64,10 @@ const Testimonial = () => {
                     />
                     <div className="flex flex-col justify-center items-center">
                       <FaQuoteLeft className="text-2xl text-gray-300" />
-                      <p className="max-w-[380px] mb-4">{person.message}</p>
-                      <span className="text-2xl text-accent">
+                      <p className="max-w-[380px] mb-4 text-gray-200">
+                        {person.message}
+                      </p>
+                      <span className="text-2xl text-accent font-anta">
                         {person.name}
                       </span>
                     </div>
