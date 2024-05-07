@@ -11,7 +11,7 @@ const About = () => {
     <section className="bg-about pt-8 pb-14 lg:pt-16 lg:pb-28 " id="about">
       <div className="container mx-auto  ">
         <div className="flex flex-col items-center gap-2 mb-8 ">
-          <h2 className="h2 text-center">About Us</h2>
+          <h2 className="h2 text-center font-anta">About Us</h2>
           <p className="max-w-[600px] mx-auto text-center text-gray-200 text-[20px]">
             At PEAK Fitness, we are committed in seeing you transform and sculpt
             your body that you have been dreaming off.

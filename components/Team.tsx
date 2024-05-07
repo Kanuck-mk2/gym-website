@@ -14,7 +14,7 @@ const Team = () => {
     <section className="bg-black  lg:h-[130vh]" id="team">
       <div className="container mx-auto h-full flex flex-col items-center justify-evenly">
         <motion.h2
-          className="text-4xl p-6"
+          className="text-4xl p-6 font-anta"
           variants={fadeIn('up', 0.4)}
           initial="childHidden"
           whileInView={'childVisible'}
@@ -69,7 +69,7 @@ const Team = () => {
           viewport={{ once: false, amount: 0.2 }}
         >
           <CustomButton
-            containerStyles="w-[196px] h-[62px] rounded-full"
+            containerStyles="w-[196px] h-[62px] rounded-full font-anta"
             text="See all trainers"
           />
         </motion.div>

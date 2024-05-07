@@ -17,7 +17,7 @@ const Membership = () => {
     >
       <div className="container mx-auto px-0 text-white h-full flex flex-col lg:pt-24 relative z-20">
         <motion.h2
-          className="h2 text-white text-center mb-8"
+          className="h2 text-white text-center mb-8 font-anta"
           variants={fadeIn('up', 0.4)}
           initial="childHidden"
           whileInView={'childVisible'}

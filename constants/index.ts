@@ -11,6 +11,7 @@ import { FaBriefcase, FaClock, FaTrophy } from 'react-icons/fa';
 import { ImUsers } from 'react-icons/im';
 import type { IconType } from 'react-icons';
 import { MdClose } from 'react-icons/md';
+import { Link } from 'react-scroll';
 
 export interface NavbarLink {
   name: string;
@@ -135,8 +136,8 @@ export const trainerData: Trainer[] = [
     ],
   },
   {
-    name: 'Matt',
-    image: '/assets/img/trainers/matt.jpg',
+    name: 'Jay',
+    image: '/assets/img/trainers/Jay.jpg',
     role: 'Bodybuilder coach',
     description: 'text',
     social: [
@@ -333,5 +334,63 @@ export const testimonialData = [
     img: '/assets/img/testimonial/lucy.jpg',
     message: 'text',
     name: 'Lucy Anthony',
+  },
+];
+
+interface blogData {
+  img: string;
+  date: string;
+  title: string;
+  href: string;
+}
+
+export const blogData = [
+  {
+    img: '/assets/img/blog/post2.jpg',
+    date: 'March 10, 2024',
+    title: 'text',
+    href: '/',
+  },
+  {
+    img: '/assets/img/blog/post2.jpg',
+    date: 'March 10, 2024',
+    title: 'text',
+    href: '/',
+  },
+  {
+    img: '/assets/img/blog/post2.jpg',
+    date: 'March 10, 2024',
+    title: 'text',
+    href: '/',
+  },
+  {
+    img: '/assets/img/blog/post2.jpg',
+    date: 'March 10, 2024',
+    title: 'text',
+    href: '/',
+  },
+  {
+    img: '/assets/img/blog/post2.jpg',
+    date: 'March 10, 2024',
+    title: 'text',
+    href: '/',
+  },
+  {
+    img: '/assets/img/blog/post2.jpg',
+    date: 'March 10, 2024',
+    title: 'text',
+    href: '/',
+  },
+  {
+    img: '/assets/img/blog/post2.jpg',
+    date: 'March 10, 2024',
+    title: 'text',
+    href: '/',
+  },
+  {
+    img: '/assets/img/blog/post2.jpg',
+    date: 'March 10, 2024',
+    title: 'text',
+    href: '/',
   },
 ];

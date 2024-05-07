@@ -57,7 +57,7 @@ const MembershipSlider = () => {
                   <em className="self-end text-2xl">monthly</em>
                 </p>
                 <CustomButton
-                  containerStyles="w-[196px] h-[62px] rounded-full"
+                  containerStyles="w-[196px] h-[62px] rounded-full font-anta"
                   text="Buy now"
                 />
               </div>

@@ -13,14 +13,13 @@ import { fadeIn } from '@/constants/animations';
 
 import 'swiper/css';
 import 'swiper/css/pagination';
-import { CgSpaceBetween } from 'react-icons/cg';
 
 const Testimonial = () => {
   return (
-    <section className="py-12 xl:py-28" id="testimonial">
+    <section className=" bg-about py-12 xl:py-28 lg:h-[100vh]" id="testimonial">
       <div className="container mx-auto">
         <motion.h2
-          className="h2 text-center"
+          className="h2 text-center font-anta py-10"
           variants={fadeIn('up', 0.4)}
           initial="childHidden"
           whileInView={'childVisible'}
@@ -34,7 +33,8 @@ const Testimonial = () => {
           whileInView={'childVisible'}
           viewport={{ once: true, amount: 0.2 }}
         >
-          <Swiper
+          <Swiper 
+          
             slidesPerView={1}
             spaceBetween={30}
             modules={[Pagination]}

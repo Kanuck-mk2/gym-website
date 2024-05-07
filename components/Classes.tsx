@@ -27,7 +27,7 @@ const Classes = () => {
                 <Image src={item.img} layout="fill" objectFit="cover" alt="/" />
                 <div className="absolute inset-0 flex flex-col items-center justify-center gap-4">
                   <motion.h3
-                    className="h3 text-accent"
+                    className="h3 text-accent font-anta font-bold "
                     variants={fadeIn('up', 0.4)}
                     initial="childHidden"
                     whileInView={'childVisible'}
@@ -52,7 +52,7 @@ const Classes = () => {
                     viewport={{ once: false, amount: 0.2 }}
                   >
                     <CustomButton
-                      containerStyles="w-[164px] h-[46px] rounded-full"
+                      containerStyles="w-[164px] h-[46px] rounded-full font-anta"
                       text="Read More"
                     />
                   </motion.div>
