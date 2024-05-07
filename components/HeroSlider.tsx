@@ -91,6 +91,7 @@ const HeroSlider = () => {
           </div>
         </div>
       </SwiperSlide>
+
       <SwiperSlide>
         <div className="h-full flex justify-start pt-48">
           <div className="flex flex-col items-center lg:items-start lg:max-w-[700px] -mt-9">
@@ -118,9 +119,10 @@ const HeroSlider = () => {
           </div>
         </div>
       </SwiperSlide>
+
       <SwiperNavButtons
-        containerStyles="absolute bottom-2 lg:right-0 lg:mb-[100px] lg:mr-[430px] h-[120px] w-full lg:w-[130px] z-50 flex justify-center sm:justify-center sm:py-14 sm:mr-50 gap-2"
-        btnStyles="border-2 border-accent rounded-full text-white w-[56px] h-[56px] flex justify-center items-center hover:bg-accent transition-all duration-300"
+        containerStyles="absolute bottom-2 lg:right-0 lg:mb-[100px] lg:mr-[430px] w-full lg:w-[130px] h-[120px] z-50 flex justify-center sm:justify-center sm:py-14 sm:mr-50 gap-2"
+        btnStyles="w-[56px] h-[56px] flex justify-center items-center border-2 border-accent rounded-full text-white hover:bg-accent transition-all duration-300"
         iconStyles="text-2xl"
       />
     </Swiper>

@@ -51,7 +51,7 @@ const MembershipSlider = () => {
                     );
                   })}
                 </ul>
-                <p className="text-accent mb-8 flex gap-1 items-center">
+                <p className="text-accent mb-8  gap-1 items-center">
                   <sup className="text-4xl">$</sup>
                   <strong className="text-5xl">{item.price}</strong>
                   <em className="self-end text-2xl">monthly</em>

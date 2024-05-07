@@ -88,23 +88,23 @@ export const classes: {
 }[] = [
   {
     name: 'bodybuilding',
-    img: '/assets/img/classes/bodybuilding.jpg',
+    img: '/assets/img/classes/bodybuilder.jpg',
     description: 'text',
   },
 
   {
     name: 'cardio',
-    img: '/assets/img/classes/cardio.jpg',
+    img: '/assets/img/classes/cardio2.jpg',
     description: 'text',
   },
   {
-    name: 'fitness',
-    img: '/assets/img/classes/fitness.jpg',
+    name: 'inclusive fitness',
+    img: '/assets/img/classes/infit.jpg',
     description: 'text',
   },
   {
     name: 'crossfit',
-    img: '/assets/img/classes/crossfit.jpg',
+    img: '/assets/img/classes/crossfit2.jpg',
     description: 'text',
   },
 ];
@@ -295,5 +295,43 @@ export const membershipData = [
         text: 'Coaching Sessions (12 sessions per month for Pro Members)',
       },
     ],
+  },
+];
+interface testimonialData {
+  img: string;
+  message: string;
+  name: string;
+}
+export const testimonialData = [
+  {
+    img: '/assets/img/testimonial/lucy.jpg',
+    message: 'text',
+    name: 'Lucy Anthony',
+  },
+  {
+    img: '/assets/img/testimonial/lucy.jpg',
+    message: 'text',
+    name: 'Lucy Anthony',
+  },
+  {
+    img: '/assets/img/testimonial/lucy.jpg',
+    message: 'text',
+    name: 'Lucy Anthony',
+  },
+
+  {
+    img: '/assets/img/testimonial/lucy.jpg',
+    message: 'text',
+    name: 'Lucy Anthony',
+  },
+  {
+    img: '/assets/img/testimonial/lucy.jpg',
+    message: 'text',
+    name: 'Lucy Anthony',
+  },
+  {
+    img: '/assets/img/testimonial/lucy.jpg',
+    message: 'text',
+    name: 'Lucy Anthony',
   },
 ];
