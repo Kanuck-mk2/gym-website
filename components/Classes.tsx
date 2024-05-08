@@ -10,13 +10,7 @@ import { classes } from '@/constants';
 const Classes = () => {
   return (
     <section id="class" className="bg-black">
-      <motion.div
-        className="grid grid-cols-1 lg:grid-cols-2"
-        variants={fadeIn('up', 0.6)}
-        initial="childHidden"
-        whileInView={'childVisible'}
-        viewport={{ once: false, amount: 0.2 }}
-      >
+      <div className="grid grid-cols-1 lg:grid-cols-2">
         {classes.map((item, index) => {
           return (
             <div
@@ -61,7 +55,7 @@ const Classes = () => {
             </div>
           );
         })}
-      </motion.div>
+      </div>
     </section>
   );
 };

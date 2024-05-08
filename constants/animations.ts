@@ -88,3 +88,31 @@ export const item = {
     },
   },
 };
+
+export const footer = {
+  hidden: {
+    opacity: 0,
+  },
+  visible: {
+    opacity: 1,
+    transition: {
+      staggerChildren: 0.6,
+      duration: 0.5,
+      ease: 'linear',
+    },
+  },
+};
+
+export const footerItem = {
+  hidden: {
+    y: 20,
+    opacity: 0,
+  },
+  visible: {
+    opacity: 1,
+    transition: {
+      duration: 0.5,
+      ease: [0.25, 0.6, 0.3, 0.8],
+    },
+  },
+};

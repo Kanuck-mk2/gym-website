@@ -50,9 +50,9 @@ const Blog = () => {
             {blogData.map((post, index) => {
               return (
                 <SwiperSlide key={index}>
-                  <div className="flex flex-col justify-start h-full max-w-[320px] mx-auto">
+                  <div className="flex flex-col justify-start h-full max-w-[320px] mx-auto ">
                     <Image
-                      className="mb-6"
+                      className="mb-6 rounded-md"
                       src={post.img}
                       width={320}
                       height={266}

@@ -19,7 +19,6 @@ export default function Home() {
       <Testimonial />
       <Blog />
       <Brands />
-      <Footer />
     </main>
   );
 }

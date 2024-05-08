@@ -348,7 +348,7 @@ export const blogData = [
   {
     img: '/assets/img/blog/post2.jpg',
     date: 'February 12, 2024',
-    title: 'Programming your goals',
+    title: 'Exploring new ways in programming your goals',
     href: '/',
   },
   {
@@ -366,19 +366,25 @@ export const blogData = [
   {
     img: '/assets/img/blog/post6.jpg',
     date: 'December 20, 2023',
-    title: 'Nutrition for girls who lift',
+    title: 'Nutrition tips for women athletes',
     href: '/',
   },
   {
     img: '/assets/img/blog/post7.jpg',
-    date: 'March 10, 2024',
+    date: 'December 8, 2023',
     title: 'Adaptive Training and overcoming limits',
     href: '/',
   },
   {
-    img: '/assets/img/blog/post2.jpg',
-    date: 'March 10, 2024',
-    title: 'text',
+    img: '/assets/img/blog/post8.jpg',
+    date: 'Oct 14, 2023',
+    title: 'Overcoming gym anxiety and misconceptions about gym culture',
+    href: '/',
+  },
+  {
+    img: '/assets/img/blog/post9.jpg',
+    date: 'Oct 14, 2023',
+    title: 'About the PEAK inclusive space and classes',
     href: '/',
   },
 ];
