@@ -173,20 +173,20 @@ const Footer = () => {
               <p>Text</p>
               <form className="flex items-center">
                 <input
-                  className="h-[50px] outline-none px-4 text-primary-300 rounded-sm"
+                  className="h-[50px] outline-none px-1 text-primary-300 rounded-sm"
                   type="text"
                   placeholder="Your email address"
                 />
                 <CustomButton
-                  containerStyles="h-[50px] px-8 rounded-sm"
-                  text=""
+                  containerStyles="h-[50px] px-10 rounded-sm font-anta"
+                  text="Sign Up"
                 />
               </form>
             </div>
           </motion.div>
         </motion.div>
       </div>
-      <div className="text-white border-t border-white/20 py-12">
+      <div className="text-white border-t border-white/20 py-20 mt-14">
         <div className="container mx-auto h-full">
           <div className="flex items-center justify-between h-full">
             <span>&copy; Copyright {currentYear} PEAK Fitness </span>
