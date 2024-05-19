@@ -39,3 +39,8 @@
   @apply text-cyan-400;
 }
 
+.custom-swiper-pagination .swiper-pagination {
+  position: relative;
+  bottom: -20px; 
+}
+

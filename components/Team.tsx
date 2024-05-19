@@ -24,7 +24,7 @@ const Team = () => {
           Our Trainers
         </motion.h2>
         <motion.div
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12"
+          className=" w-[1200px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12"
           variants={fadeIn('up', 0.6)}
           initial="childHidden"
           whileInView={'childVisible'}

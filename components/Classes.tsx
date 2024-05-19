@@ -15,9 +15,9 @@ const Classes = () => {
           return (
             <div
               key={index}
-              className="relative flex flex-col justify-center items-center"
+              className="relative flex flex-col justify-center items-center "
             >
-              <div className="relative w-full h-[300px] lg:h-[486px]">
+              <div className="relative w-full h-[300px] lg:h-[486px] ">
                 <Image src={item.img} layout="fill" objectFit="cover" alt="/" />
                 <div className="absolute inset-0 flex flex-col items-center justify-center gap-4">
                   <motion.h3

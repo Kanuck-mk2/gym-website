@@ -12,7 +12,7 @@ const MobileNav = ({ containerStyles }: { containerStyles: string }) => {
 
   return (
     <motion.nav
-    className={`${containerStyles}`}
+    className={`${containerStyles} `}
     variants={fadeIn('down', 0.3)} 
     initial="parentHidden"
     animate='parentVisible'

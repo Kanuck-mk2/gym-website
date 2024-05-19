@@ -34,6 +34,7 @@ const Testimonial = () => {
           viewport={{ once: true, amount: 0.2 }}
         >
           <Swiper
+            className="custom-swiper-pagination"
             slidesPerView={1}
             spaceBetween={30}
             modules={[Pagination]}
@@ -53,7 +54,7 @@ const Testimonial = () => {
           >
             {testimonialData.map((person, index) => {
               return (
-                <SwiperSlide className="h-full" key={index}>
+                <SwiperSlide className="h-full " key={index}>
                   <div className="flex flex-col justify-center items-center gap-6 text-center h-full">
                     <Image
                       className="rounded-full border-2 border-accent"

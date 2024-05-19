@@ -127,7 +127,8 @@ export const trainerData: Trainer[] = [
     name: 'David',
     image: '/assets/img/trainers/david2.jpg',
     role: 'Bodybuilder coach',
-    description: 'David is a professional bodybuilder coach with extensive experience and a passion for sculpting physiques. With personalized training programs and expert guidance, David helps clients achieve their fitness goals effectively.',
+    description:
+      'David is a professional bodybuilder coach with extensive experience and a passion for sculpting physiques. With personalized training programs and expert guidance, David helps clients achieve their fitness goals effectively.',
     social: [
       { icon: FaFacebook, href: 'http://facebook.com' },
       { icon: FaTwitter, href: 'http://twitter.com' },
@@ -136,9 +137,10 @@ export const trainerData: Trainer[] = [
   },
   {
     name: 'Jay',
-    image: '/assets/img/trainers/Jay.jpg',
+    image: '/assets/img/trainers/jay2.jpg',
     role: 'Professional Trainer',
-    description: 'Jay is a professional trainer known for his dynamic approach and personalized training methods. With Jays guidance, clients achieve remarkable results and surpass their fitness goals.',
+    description:
+      'Jay is a professional trainer known for his dynamic approach and personalized training methods. With Jays guidance, clients achieve remarkable results and surpass their fitness goals.',
     social: [
       { icon: FaFacebook, href: 'http://facebook.com' },
       { icon: FaTwitter, href: 'http://twitter.com' },
@@ -149,7 +151,8 @@ export const trainerData: Trainer[] = [
     name: 'Anya',
     image: '/assets/img/trainers/anya.jpg',
     role: 'Fitness Expert',
-    description: 'Anya is a renowned fitness expert with a holistic approach to fitness. Her training programs focus on physical strength, mental well-being, and nutritional balance, helping clients achieve optimal health and wellness.',
+    description:
+      'Anya is a renowned fitness expert with a holistic approach to fitness. Her training programs focus on physical strength, mental well-being, and nutritional balance, helping clients achieve optimal health and wellness.',
     social: [
       { icon: FaFacebook, href: 'http://facebook.com' },
       { icon: FaTwitter, href: 'http://twitter.com' },
@@ -157,7 +160,6 @@ export const trainerData: Trainer[] = [
     ],
   },
 ];
-
 
 interface benefits {
   icon: IconType;
@@ -324,7 +326,6 @@ export const testimonialData = [
   },
 ];
 
-
 interface blogData {
   img: string;
   date: string;
@@ -378,7 +379,7 @@ export const blogData = [
   {
     img: '/assets/img/blog/post8.jpg',
     date: 'Oct 14, 2023',
-    title: 'Overcoming gym anxiety and misconceptions about gym culture',
+    title: 'Overcoming gym anxiety and misconceptions about the gym',
     href: '/',
   },
   {
@@ -389,7 +390,7 @@ export const blogData = [
   },
 ];
 
-interface brandImages{
+interface brandImages {
   src: string;
   href: string;
 }
@@ -415,4 +416,4 @@ export const brandImages = [
     src: '/assets/img/brands/brand-5.png',
     href: '',
   },
-]
+];
