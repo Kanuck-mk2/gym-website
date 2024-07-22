@@ -173,12 +173,12 @@ const Footer = () => {
               <p>Text</p>
               <form className="flex items-center">
                 <input
-                  className="h-[50px] outline-none px-1 text-primary-300 rounded-sm"
+                  className="h-[50px] outline-none px-1 text-primary-300 rounded-full"
                   type="text"
                   placeholder="Your email address"
                 />
                 <CustomButton
-                  containerStyles="h-[50px] px-10 rounded-sm font-anta"
+                  containerStyles="h-[50px] text-center px-10 rounded-full font-anta"
                   text="Sign Up"
                 />
               </form>
