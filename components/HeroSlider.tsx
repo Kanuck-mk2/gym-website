@@ -15,7 +15,7 @@ const HeroSlider = () => {
     <Swiper className="h-full">
       <SwiperSlide>
         <div className="h-full flex justify-start pt-48">
-          <div className="flex flex-col items-center lg:items-start lg:max-w-[700px] -mt-9">
+          <div className="flex flex-col items-center lg:items-start lg:max-w-[700px] sm:w-[360px] -mt-9">
             <motion.h1
               className="lg:text-8xl text-gray-200 text-center lg:text-left mb-2 font-anta sm:text-7xl"
               variants={fadeIn('up', 0.4)}

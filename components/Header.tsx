@@ -27,7 +27,7 @@ const Header = () => {
 
   return (
     <motion.header
-      className={`fixed  w-full top-0 left-0 right-0  bg-black/30 backdrop-filter backdrop-blur-lg z-50 transition-all ${
+      className={`fixed  lg:w-full sm:w-[360px] top-0 left-0 right-0  bg-black/30 backdrop-filter backdrop-blur-lg z-50 transition-all ${
         headerActive ? 'h-[100px]' : 'h-[125px]'
       }`}
       variants={fadeIn('down', 0.4)}
