@@ -56,10 +56,10 @@ const Header = () => {
             ? 'max-h-max pt-8 pb-10 border-t border-white/10'
             : 'max-h-0 pt-0 pb-0 overflow-hidden border-white/0'
         }
-        flex flex-col text-center gap-8 fixed bg-primary-200 w-full left-0 text-base uppercase font-medium text-white transition-all sm:hidden
+        flex flex-col text-center gap-8 fixed bg-primary-200 w-full left-0 text-base uppercase font-medium text-white transition-all lg:hidden
       `}
         />
-        <Nav containerStyles="flex gap-4 text-white text-base uppercase font-medium lg:flex lg:hidden" />
+        <Nav containerStyles="flex gap-4 text-white text-base uppercase font-medium lg:flex sm:hidden" />
 
         <div className="flex items-center gap-4">
           <div className="text-white flex items-center gap-4">
